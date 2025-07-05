@@ -1,0 +1,213 @@
+
+    *{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+
+    }
+ body{
+    min-height: 100vh;
+    background-color: linear-gradient(#FFFFFF, #EBDCFF);
+ }
+
+ .btn {
+    background-color: #872BFF ;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+
+
+
+ }
+
+ .btn2 {
+    border: 2px solid #872BFF ;
+    border-radius: 30px;
+    padding: 16px 32px;
+    
+    cursor: pointer;
+    margin-right: 20px;
+ }
+
+#banner{
+margin-top: 100px;
+margin-bottom: 120px;
+margin-left: auto;
+margin-right: auto;
+
+border: 2px solid #872BFF10;
+border-radius: 40px;
+
+padding: 20px 30px;
+background-image: url(images/hero-bg.png);
+
+width: 87.5%;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+background-color: white;
+
+
+
+}
+
+.banner-content {
+    width: 60%;
+
+}
+.banner-content * {
+    margin-bottom: 36px;
+}
+
+.banner-content h1{
+font-size: 70px;
+font-weight: bold;
+}
+
+.banner-content span {
+    color: #F411CF ;
+}
+
+.banner-content p {
+    font-weight: medium;
+    font-size: 18px ;
+    color: #A8A8A8;
+}
+
+.banner-image img{
+    width: 600px;
+}
+
+
+
+
+#service,
+#story
+ {
+   width: 87.5%;
+   margin: 0px auto 120px auto;
+
+}
+
+.heading-content{
+    text-align: center;
+}
+.heading-content h4 {
+    color: #F411CF;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.heading-content h2 {
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+#service-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 60px;
+    text-align: center;
+    width: 300px;
+    border-radius: 30px;
+
+}
+
+.service-card img {
+    margin-bottom: 30px;
+
+}
+.service-card h2 {
+    font-weight: semibold;
+    font-size: 28px;
+    margin-bottom: 20px;
+
+}
+.service-card p {
+color: #A8A8A8;
+}
+
+.story-card {
+    display: flex;
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    gap: 20px;
+
+}
+
+.story-content img,
+.story-content h2,
+.story-content p
+{
+    margin-bottom: 30px;
+}
+
+#country-card-container {
+    display: flex;
+    padding: 30px;
+    margin: 40px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#country-card-container h2 {
+    background-color: navajowhite;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.review-card {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+.review-text {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.reviewer {
+  font-weight: 600;
+  font-size: 16px;
+}
+.review-title {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+.stars {
+  color: #ffd700;
+  font-size: 22px;
+}
+
+
+.footer {
+  background: #c3e9c7;
+  padding: 20px ;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  font-weight: bold;
+}
